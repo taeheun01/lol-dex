@@ -52,6 +52,29 @@ Next.js 환경에서 typescript를 사용해서 롤api로 사전만들기
 ┃ ┗ 📜utils.ts
 
 ## 🧩 주요 기능
+###레이아웃
+![image](https://github.com/user-attachments/assets/32778683-f478-4fad-b045-02bc6362b87a)
+
+###메인페이지
+![image](https://github.com/user-attachments/assets/8362a6ba-7212-40ed-8632-d135dbd96216)
+
+###챔피언 목록
+![image](https://github.com/user-attachments/assets/add817bb-5b36-4bfa-bafa-e33e62913e77)
+
+###챔피언 디테일
+#### 디테일 설명
+![image](https://github.com/user-attachments/assets/61c05d4b-2d75-4540-a5c3-a46684eab066)
+#### 스킨
+![image](https://github.com/user-attachments/assets/8a828900-c50f-4282-a92b-709381eea0d1)
+
+###로테이션 정보
+####무료 주간 로테이션
+![image](https://github.com/user-attachments/assets/16186b0d-1354-4066-80c3-77350b5e5d6f)
+#####신규 플레이어용 무료 챔피언
+![image](https://github.com/user-attachments/assets/2fcc0e74-8b09-464d-9c76-b1ccb682dfb0)
+
+###아이템 목록
+![image](https://github.com/user-attachments/assets/e8ab9750-5c25-425a-afee-b6aad8ea09d6)
 
 ## 🚨 트러블 슈팅
 
