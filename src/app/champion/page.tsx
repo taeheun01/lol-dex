@@ -9,22 +9,25 @@ export default async function ChampionsPage() {
   
   return (
     <div>
-    <h1>Champion List</h1>
-    <ul style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '10px' }}>
+    <div className='mt-[100px]' >
+    {/* style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)' }} */}
+    <ul className='grid grid-cols-4 ml-[150px] '  >
       {champions.map((champion) => (
-        <li key={champion.id} style={{ listStyle: 'none', textAlign: 'center' }}>
-          <h2>{champion.name}</h2>
-          <p>{champion.title}</p>
+        <li className='p-[10px]' key={champion.id} style={{ listStyle: 'none', textAlign: 'center' }}>
+          <div >
+          {/* <p>{champion.title}</p> */}
           <Link href={`/champion/${champion.id}`}>
-          <img
+          <img className='h-[200px] w-[200px]'
             src={`https://ddragon.leagueoflegends.com/cdn/${version}/img/champion/${champion.image.full}`}
             alt={champion.name}
-            style={{ width: '100px', height: '100px' }}
           />
+          <h2 className=' w-[200px] bg-black text-white'>{champion.name}</h2>
           </Link>
+          </div>
         </li>
       ))}
     </ul>
+    </div>
   </div>
 );
 }
