@@ -127,7 +127,6 @@ Next.js 환경에서 typescript를 사용해서 롤api로 사전만들기
 
 # 📝Technologies & Tools
 
-![next.js](https://img.shields.io/badge/nextdotjs-#000000style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 ![slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)
 ![github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
