@@ -1,11 +1,6 @@
 import { getChampionDetails, getLatestVersion } from '../../utils/serverApi';
 import { ChampionData} from '../../types/Champion';
 import { Metadata } from 'next';
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-} from "@/components/ui/carousel"
 
 
 export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
@@ -85,20 +80,20 @@ export default async function ChampionDetailPage({ params }: { params: { id: str
 </div>
       {/* 스킨목록 */}
       <h2 className="text-2xl font-semibold mt-12 ml-12">Skins</h2>
-      <Carousel className="grid grid-cols-4 gap-4 p-4">
+      <div className="grid grid-cols-4 gap-4 p-4">
         {champion.skins.map((skin, index) => (
-          <CarouselContent key={index} className="text-center">
-            <CarouselItem>
+          <div key={index} className="text-center">
+            <div>
               <img
                 className="w-full min-h-[300px] rounded-lg shadow-md"
                 src={`https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${champion.id}_${skin.num}.jpg`}
                 alt={skin.name}
               />
               <p className="mt-2">{skin.name}</p>
-            </CarouselItem>
-          </CarouselContent>
+            </div>
+          </div>
         ))}
-      </Carousel>
+      </div>
     
     </div>
   );
