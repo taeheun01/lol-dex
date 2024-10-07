@@ -23,6 +23,8 @@ export type spells = {
 },
 };
 
+
+
 export type skins = {
     id: string;
     num: number;
@@ -64,6 +66,19 @@ export type ChampionData = {
         attackdamageperlevel: number;
         [key: string]: number;
       };
+      passive: {
+        name: string;
+    description: string;
+    image: {
+        full: string;
+        sprite: string;
+        group: string;
+        x: number;
+        y: number;
+        w: number;
+        h: number;
+    }
+      }
       spells: spells[];
       skins:skins[];
 }
